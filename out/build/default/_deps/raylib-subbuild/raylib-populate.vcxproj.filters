@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-subbuild\CMakeFiles\8f1462569fc8c2e489b0120174ac3077\raylib-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-subbuild\CMakeFiles\8f1462569fc8c2e489b0120174ac3077\raylib-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-subbuild\CMakeFiles\8f1462569fc8c2e489b0120174ac3077\raylib-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-subbuild\CMakeFiles\8f1462569fc8c2e489b0120174ac3077\raylib-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-subbuild\CMakeFiles\8f1462569fc8c2e489b0120174ac3077\raylib-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-subbuild\CMakeFiles\8f1462569fc8c2e489b0120174ac3077\raylib-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-subbuild\CMakeFiles\8f1462569fc8c2e489b0120174ac3077\raylib-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-subbuild\CMakeFiles\8f1462569fc8c2e489b0120174ac3077\raylib-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-subbuild\CMakeFiles\9f1f82e9fedc89a16875b8ceef470cd3\raylib-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-subbuild\CMakeFiles\fee29c70780b0954677f168f2de54ac1\raylib-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-subbuild\CMakeFiles\raylib-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EF46606D-CDDD-36E5-9D51-820FF357C7B7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

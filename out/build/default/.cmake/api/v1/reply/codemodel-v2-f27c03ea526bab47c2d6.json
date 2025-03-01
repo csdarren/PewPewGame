@@ -1,0 +1,908 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "_deps/raylib-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.raylib-build-Debug-6be6d8ad3e15220edd45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "out/build/default/_deps/raylib-src",
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"build" : "_deps/raylib-build/raylib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.raylib-build.raylib-Debug-ea03ef52b4a80aec2b65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/default/_deps/raylib-src/src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/raylib-build/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-_deps.raylib-build.raylib.external.glfw-Debug-12951464835724449341.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "out/build/default/_deps/raylib-src/src/external/glfw",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/raylib-build/raylib/external/glfw/src",
+					"jsonFile" : "directory-_deps.raylib-build.raylib.external.glfw.src-Debug-7947421f2555f202c5dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "out/build/default/_deps/raylib-src/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						5,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PewPewGame",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "raylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-fe3f46d3f96eb4793ea5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@1f4ba659214c9866b353",
+					"jsonFile" : "target-ALL_BUILD-Debug-73e97797ff3957c3fe63.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@abb1d9e801b084c7b6bd",
+					"jsonFile" : "target-ALL_BUILD-Debug-f516bf0e38d67c705df2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PewPewGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PewPewGame-Debug-227f998c7743151e1445.json",
+					"name" : "PewPewGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-0c9c18c1cb45f957a839.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-glfw-Debug-db83a9c0f381154d58f9.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "raylib::@4dc3a4644cf4ded08c01",
+					"jsonFile" : "target-raylib-Debug-77604e996706a37e50af.json",
+					"name" : "raylib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@1f4ba659214c9866b353",
+					"jsonFile" : "target-uninstall-Debug-300ec9d678e913655357.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "update_mappings::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-update_mappings-Debug-d0dde6364ce620f49ef3.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "_deps/raylib-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.raylib-build-Release-6be6d8ad3e15220edd45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "out/build/default/_deps/raylib-src",
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"build" : "_deps/raylib-build/raylib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.raylib-build.raylib-Release-c3786e09c472372d113c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/default/_deps/raylib-src/src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/raylib-build/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-_deps.raylib-build.raylib.external.glfw-Release-12951464835724449341.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "out/build/default/_deps/raylib-src/src/external/glfw",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/raylib-build/raylib/external/glfw/src",
+					"jsonFile" : "directory-_deps.raylib-build.raylib.external.glfw.src-Release-7947421f2555f202c5dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "out/build/default/_deps/raylib-src/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						5,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PewPewGame",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "raylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-fe3f46d3f96eb4793ea5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@1f4ba659214c9866b353",
+					"jsonFile" : "target-ALL_BUILD-Release-73e97797ff3957c3fe63.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@abb1d9e801b084c7b6bd",
+					"jsonFile" : "target-ALL_BUILD-Release-f516bf0e38d67c705df2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PewPewGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PewPewGame-Release-0ccb80addd185016fa90.json",
+					"name" : "PewPewGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-0c9c18c1cb45f957a839.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-glfw-Release-3aa15ae96bd65d297e5d.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "raylib::@4dc3a4644cf4ded08c01",
+					"jsonFile" : "target-raylib-Release-3b01b08830d554311483.json",
+					"name" : "raylib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@1f4ba659214c9866b353",
+					"jsonFile" : "target-uninstall-Release-300ec9d678e913655357.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "update_mappings::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-update_mappings-Release-d0dde6364ce620f49ef3.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "_deps/raylib-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.raylib-build-MinSizeRel-6be6d8ad3e15220edd45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "out/build/default/_deps/raylib-src",
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"build" : "_deps/raylib-build/raylib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.raylib-build.raylib-MinSizeRel-2efa95d88aa521a9ea1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/default/_deps/raylib-src/src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/raylib-build/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-_deps.raylib-build.raylib.external.glfw-MinSizeRel-12951464835724449341.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "out/build/default/_deps/raylib-src/src/external/glfw",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/raylib-build/raylib/external/glfw/src",
+					"jsonFile" : "directory-_deps.raylib-build.raylib.external.glfw.src-MinSizeRel-7947421f2555f202c5dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "out/build/default/_deps/raylib-src/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						5,
+						8
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PewPewGame",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "raylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-fe3f46d3f96eb4793ea5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@1f4ba659214c9866b353",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-73e97797ff3957c3fe63.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@abb1d9e801b084c7b6bd",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f516bf0e38d67c705df2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PewPewGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PewPewGame-MinSizeRel-fb871e505340f96cf764.json",
+					"name" : "PewPewGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-0c9c18c1cb45f957a839.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-glfw-MinSizeRel-b2c8dd7c4e28e65e727f.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "raylib::@4dc3a4644cf4ded08c01",
+					"jsonFile" : "target-raylib-MinSizeRel-2edc12756ac8be6d58ca.json",
+					"name" : "raylib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@1f4ba659214c9866b353",
+					"jsonFile" : "target-uninstall-MinSizeRel-300ec9d678e913655357.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "update_mappings::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-update_mappings-MinSizeRel-d0dde6364ce620f49ef3.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "_deps/raylib-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.raylib-build-RelWithDebInfo-6be6d8ad3e15220edd45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "out/build/default/_deps/raylib-src",
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"build" : "_deps/raylib-build/raylib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.raylib-build.raylib-RelWithDebInfo-09767c3753202fc141a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/default/_deps/raylib-src/src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/raylib-build/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-_deps.raylib-build.raylib.external.glfw-RelWithDebInfo-12951464835724449341.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "out/build/default/_deps/raylib-src/src/external/glfw",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/raylib-build/raylib/external/glfw/src",
+					"jsonFile" : "directory-_deps.raylib-build.raylib.external.glfw.src-RelWithDebInfo-7947421f2555f202c5dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "out/build/default/_deps/raylib-src/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						5,
+						8
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PewPewGame",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "raylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-fe3f46d3f96eb4793ea5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@1f4ba659214c9866b353",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-73e97797ff3957c3fe63.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@abb1d9e801b084c7b6bd",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f516bf0e38d67c705df2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PewPewGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PewPewGame-RelWithDebInfo-e5f989ccb0d5fd65a2a5.json",
+					"name" : "PewPewGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-0c9c18c1cb45f957a839.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-glfw-RelWithDebInfo-b325091ac5b4a7d4f842.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "raylib::@4dc3a4644cf4ded08c01",
+					"jsonFile" : "target-raylib-RelWithDebInfo-bf5fd91afe8b48849a68.json",
+					"name" : "raylib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@1f4ba659214c9866b353",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-300ec9d678e913655357.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "update_mappings::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-update_mappings-RelWithDebInfo-d0dde6364ce620f49ef3.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/dev/CPP/PewPewGame/out/build/default",
+		"source" : "C:/dev/CPP/PewPewGame"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

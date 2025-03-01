@@ -1,0 +1,15 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "default",
+            "description": "Using compilers: C = C:\\Program Files\\LLVM\\bin\\clang-cl.exe, CXX = C:\\Program Files\\LLVM\\bin\\clang-cl.exe",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_C_COMPILER": "C:/Program Files/LLVM/bin/clang-cl.exe",
+                "CMAKE_CXX_COMPILER": "C:/Program Files/LLVM/bin/clang-cl.exe",
+                "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${sourceDir}/executable"
+            }
+        }
+    ]
+}

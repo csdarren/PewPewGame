@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/dev/CPP/PewPewGame/out/build/default/_deps/raylib-subbuild/CMakeFiles/raylib-populate"
+		},
+		{
+			"file" : "C:/dev/CPP/PewPewGame/out/build/default/_deps/raylib-subbuild/CMakeFiles/fee29c70780b0954677f168f2de54ac1/raylib-populate.rule"
+		},
+		{
+			"file" : "C:/dev/CPP/PewPewGame/out/build/default/_deps/raylib-subbuild/CMakeFiles/9f1f82e9fedc89a16875b8ceef470cd3/raylib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/dev/CPP/PewPewGame/out/build/default/_deps/raylib-subbuild/CMakeFiles/8f1462569fc8c2e489b0120174ac3077/raylib-populate-build.rule"
+		},
+		{
+			"file" : "C:/dev/CPP/PewPewGame/out/build/default/_deps/raylib-subbuild/CMakeFiles/8f1462569fc8c2e489b0120174ac3077/raylib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/dev/CPP/PewPewGame/out/build/default/_deps/raylib-subbuild/CMakeFiles/8f1462569fc8c2e489b0120174ac3077/raylib-populate-download.rule"
+		},
+		{
+			"file" : "C:/dev/CPP/PewPewGame/out/build/default/_deps/raylib-subbuild/CMakeFiles/8f1462569fc8c2e489b0120174ac3077/raylib-populate-install.rule"
+		},
+		{
+			"file" : "C:/dev/CPP/PewPewGame/out/build/default/_deps/raylib-subbuild/CMakeFiles/8f1462569fc8c2e489b0120174ac3077/raylib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/dev/CPP/PewPewGame/out/build/default/_deps/raylib-subbuild/CMakeFiles/8f1462569fc8c2e489b0120174ac3077/raylib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/dev/CPP/PewPewGame/out/build/default/_deps/raylib-subbuild/CMakeFiles/8f1462569fc8c2e489b0120174ac3077/raylib-populate-test.rule"
+		},
+		{
+			"file" : "C:/dev/CPP/PewPewGame/out/build/default/_deps/raylib-subbuild/CMakeFiles/8f1462569fc8c2e489b0120174ac3077/raylib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"raylib-populate"
+		],
+		"name" : "raylib-populate"
+	}
+}

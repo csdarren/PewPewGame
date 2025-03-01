@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\CMakeFiles\495b05d741244db885bcd17d6d6a3eff\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{44884AB1-47AD-3249-B2C6-F439D9A4D9EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-src\src\raudio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-src\src\rcore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-src\src\rmodels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-src\src\rshapes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-src\src\rtext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-src\src\rtextures.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-src\src\utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-src\src\raylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-src\src\rlgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-src\src\raymath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\input.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\platform.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\vulkan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\egl_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\osmesa_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_joystick.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_module.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_time.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_thread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_joystick.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\dev\CPP\PewPewGame\out\build\default\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\wgl_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0BAD1252-0697-3162-B565-87611E1D678A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{2B7A6F5F-2F83-311D-8C05-21F5CEF13E2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{67C364B2-2AAA-3339-8F0B-7A3500F867BC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
