@@ -1,0 +1,11 @@
+INFO: FILEIO: [C:/dev/CPP/PewPewGame/src/assets/audio/soundfx/Pew.wav] File loaded successfully
+INFO: WAVE: Data loaded successfully (44100 Hz, 16 bit, 1 channels)
+WARNING: SOUND: Failed to get frame count for format conversion
+WARNING: AUDIO: Failed to create data conversion pipeline
+WARNING: SOUND: Failed to create buffer
+INFO: FILEIO: [C:/dev/CPP/PewPewGame/src/assets/textures/projectile.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (8x8 | R8G8B8A8 | 1 mipmaps)
+
+
+
+
