@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/dev/CPP/PewPewGame/build/cmake_install.cmake"
+		"C:/dev/CPP/CarProjectRaylib/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
